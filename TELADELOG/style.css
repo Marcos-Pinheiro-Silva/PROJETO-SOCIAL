@@ -1,0 +1,83 @@
+@charset "UTF-8";
+ * {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    background-image: url(fundo-gradiente-escuro-com-espaco-de-copia_53876-99548.avif);
+    height: 98vh; /*Uso total da altura da página*/
+    background-repeat: no-repeat;
+    background-position: center center; /*Posição da imagem no background*/
+    background-size: cover; /* Usa toda a pagina para enquadrar toda imagem*/
+    background-attachment: fixed; 
+            /*Declaçação background: color,image. position, repeart, [zine]não está funcionado ainda, attachament*/       
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#login{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+#ilog {
+    background-color: #2D2B3C;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 3px;
+    width: 300px;
+    text-align: center;
+    border-style: groove;
+}
+
+#ipas {
+    background-color: #2D2B3C;
+    color: #ffffff;
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px; 
+    border-radius: 3px;
+    text-align: center;
+    border-style: groove;
+}
+ 
+#sub {
+    background-image: linear-gradient(to top, #3154a1cb,#5891D8, #6FB4DE);
+    color: white;
+    margin-top: 10px;
+    margin-left: 1px;
+    padding: 10px;
+    width: 323px;
+    border-radius: 3px;
+    border-style: none;
+}
+
+#sub:hover {
+    background-image: linear-gradient(to right, #6FB4DE, #5891D8, #3154a1cb);
+}
+#wpp {
+    margin-top: 10px;
+    margin-left: 44%;
+    background-image: url(410199-PD37U2-851.jpg);
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    
+    
+ }
+ 
+
+
+ 
+ 
